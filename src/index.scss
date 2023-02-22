@@ -1,0 +1,41 @@
+$deep-blue: #171834;
+$deeper-blue: #111228;
+$teal: #00afc3;
+$pink: #ff52f9;
+$indigo: #8099ff;
+
+body {
+  background: $deep-blue;
+  color: white;
+}
+
+.devden-container {
+  display: grid;
+  grid-template-columns: auto max-content;
+  grid-template-rows: 3em auto;
+  min-height: 100%;
+}
+
+nav.topbar {
+  position: sticky;
+  grid-column-start: 1;
+  grid-column-end: end;
+  width: 100vw;
+  background-color: $deeper-blue;
+  z-index: 50;
+}
+
+main {
+  display: contents;
+
+  > div.sidebar {
+    background: $deeper-blue;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  > section {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
