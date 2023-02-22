@@ -1,0 +1,226 @@
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Learning Resources - Developer Den</title>
+
+    <link rel="stylesheet" href="/custom.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="../node_modules/@fontsource/cascadia-code">
+    <link rel="stylesheet" href="../node_modules/@fontsource/montserrat">
+</head>
+<body>
+<script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+<div class="h-screen bg-gradient-to-r from-teal via-indigo to-pink">
+    <div class="pb-10">
+        <nav class="fixed top-0 z-50 w-full bg-deeper-blue border-deeper-blue dark:bg-gray-800 dark:border-gray-700">
+            <div class="px-3 py-3 lg:px-5 lg:pl-3">
+                <div class="flex items-center justify-between font-cascadia text-white">
+                    <div class="flex items-center justify-start">
+                        <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar"
+                                aria-controls="logo-sidebar"
+                                type="button"
+                                class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                            <span class="sr-only">Open sidebar</span>
+                            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd" fill-rule="evenodd"
+                                      d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+                            </svg>
+                        </button>
+                        <a href="https://developerden.net" class="flex ml-2 hidden lg:inline">
+                            <img src="/assets/devden_logo.svg" class="h-8 mr-3" alt="Developer Den Logo"/>
+                        </a>
+                    </div>
+                    <a href="/" class="hover:bg-gray-300 rounded-2xl ease-in-out duration-300">home</a>
+                    <a href="/rules"
+                       class="hover:bg-gray-300 rounded-2xl px-3 py-1 ease-in-out duration-300">rules</a>
+                    <a href="/services-rules"
+                       class="hover:bg-gray-300 rounded-2xl px-3 py-1 ease-in-out duration-300">services
+                        rules</a>
+                    <a href="/projects"
+                       class="hover:bg-gray-300 rounded-2xl px-3 py-1 ease-in-out duration-300">projects</a>
+                    <a href="/learning-resources/"
+                       class="font-bold rounded-2xl px-3 py-1 bg-gradient-to-r from-teal via-indigo to-pink text-gray-50">learning
+                        resources</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <aside id="logo-sidebar"
+               class="fixed top-0 left-0 z-40 mr-4 w-auto h-screen pt-20 transition-transform -translate-x-full bg-deeper-blue sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
+               aria-label="Sidebar">
+            <div class="h-full px-3 pb-4 overflow-y-auto text-white dark:bg-gray-800">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#"
+                           class="flex items-center p-2 text-base font-normal rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <span class="ml-3">java</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="flex items-center p-2 text-base font-normal rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <span class="flex-1 ml-3 whitespace-nowrap">java 2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="flex items-center p-2 text-base font-normal rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <span class="flex-1 ml-3 whitespace-nowrap">not java</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="flex items-center p-2 text-base font-normal rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <span class="flex-1 ml-3 whitespace-nowrap">also not java</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="flex items-center p-2 text-base font-normal rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <span class="flex-1 ml-3 whitespace-nowrap">skript </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <span class="flex-1 ml-3 whitespace-nowrap">not java 2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="flex items-center p-2 text-base font-normal text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <span class="flex-1 ml-3 whitespace-nowrap">skript 2</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+
+        <div class="pt-4 bg-deep-blue min-h-screen">
+            <div class="mt-14">
+                <div class="mb-20 text-white">
+                    <h1 class="text-6xl font-cascadia mt-2 py-2 text-center">learning resources - Java</h1>
+                    <h2 class="text-2xl py-2 font-montserrat text-center">
+                        Java is an Object Oriented language designed by James Gosling in 1995
+                    </h2>
+                    <div class="">
+                        <ul class="space-y-1 list-disc">
+                            <li class="ml-10"><p class="font-montserrat text-l"><i>java.com</i>
+                            </p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="bg-deep-blue min-h-screen flex h-full bg-fixed flex-col">-->
+<!--    <div class="w-full bg-gradient-to-r from-teal via-indigo to-pink pb-1">-->
+<!--        <nav class="fixed top-0 z-50 w-full bg-deep-blue text-white font-montserrat shadow-md ">-->
+<!--            <div class="container flex flex-wrap items-center justify-between mx-auto">-->
+<!--                <div class="flex items-center">-->
+<!--                    <img src="devden_logo.svg" class="sm:h-5" alt="DevDen logo">-->
+<!--                </div>-->
+<!--                <a href="/" class="hover:bg-gray-300 rounded-2xl ease-in-out duration-300">home</a>-->
+<!--                <a href="/rules" class="hover:bg-gray-300 rounded-2xl px-3 py-1 ease-in-out duration-300">rules</a>-->
+<!--                <a href="/services-rules" class="hover:bg-gray-300 rounded-2xl px-3 py-1 ease-in-out duration-300">services-->
+<!--                    rules</a>-->
+<!--                <a href="/projects"-->
+<!--                   class="hover:bg-gray-300 rounded-2xl px-3 py-1 ease-in-out duration-300">projects</a>-->
+<!--                <a href="/learning-resources/"-->
+<!--                   class="font-bold rounded-2xl px-3 py-1 bg-gradient-to-r from-teal via-indigo to-pink text-gray-50">learning-->
+<!--                    resources</a>-->
+<!--            </div>-->
+
+<!--        </nav>-->
+<!--    </div>-->
+
+<!--    <button data-drawer-target="language-sidebar" data-drawer-toggle="language-sidebar" aria-controls="language-sidebar"-->
+<!--            type="button"-->
+<!--            class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">-->
+<!--        <span class="sr-only">Open sidebar</span>-->
+<!--        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"-->
+<!--             xmlns="http://www.w3.org/2000/svg">-->
+<!--            <path clip-rule="evenodd" fill-rule="evenodd"-->
+<!--                  d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>-->
+<!--        </svg>-->
+<!--    </button>-->
+
+<!--    <aside id="language-sidebar"-->
+<!--           class="fixed top-16 left-0 z-40 w-auto h-screen transition-transform -translate-x-full sm:translate-x-0"-->
+<!--           aria-label="Sidebar">-->
+<!--        <div class="w-full min-h-screen bg-gradient-to-b from-teal via-indigo to-pink pr-1">-->
+<!--            <div class="px-3 py-4 min-h-screen overflow-y-auto bg-deep-blue text-white dark:bg-gray-800">-->
+<!--                <ul class="space-y-2">-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="flex items-center p-2 text-base font-normal  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+<!--                            <span class="ml-3">Java</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="flex items-center p-2 text-base font-normal  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+<!--                            <span class="flex-1 ml-3 whitespace-nowrap">Kotlin</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="flex items-center p-2 text-base font-normal  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+<!--                            <span class="flex-1 ml-3 whitespace-nowrap">Idk</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="flex items-center p-2 text-base font-normal  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+<!--                            <span class="flex-1 ml-3 whitespace-nowrap">Blah</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="flex items-center p-2 text-base font-normal   dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+<!--                            <span class="flex-1 ml-3 whitespace-nowrap">Blah Blah</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="flex items-center p-2 text-base font-normal   dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+
+<!--                            <span class="flex-1 ml-3 whitespace-nowrap">Blah Blah Blah</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="#"-->
+<!--                           class="flex items-center p-2 text-base font-normal   dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">-->
+
+<!--                            <span class="flex-1 ml-3 whitespace-nowrap">No more svgs</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </aside>-->
+
+<!--    <div class="ml-64 mr-64 mb-20 text-white">-->
+<!--        <h1 class="text-6xl font-cascadia mt-2 py-2 text-center">learning resources</h1>-->
+<!--        <h2 class="text-2xl py-2 font-montserrat text-center">-->
+<!--            learn stuff here-->
+<!--        </h2>-->
+<!--        <div class=""><h3 class="font-montserrat text-3xl py-2 mt-2">learn java</h3>-->
+<!--            <ul class="space-y-1 list-disc">-->
+<!--                <li class="ml-10"><p class="font-montserrat text-xl"><i>java. com</i>-->
+<!--                </p></li>-->
+<!--            </ul>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+</body>
+</html>
