@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@fontsource/cascadia-code": "^4.2.1",
-    "@fontsource/montserrat": "^4.5.14",
+    "@fontsource/montserrat": "^5.0.0",
     "flowbite": "^1.6.3"
   }
 }
