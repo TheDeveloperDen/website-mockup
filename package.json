@@ -17,7 +17,7 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
-    "@fontsource/cascadia-code": "^4.2.1",
+    "@fontsource/cascadia-code": "^5.0.0",
     "@fontsource/montserrat": "^4.5.14",
     "flowbite": "^1.6.3"
   }
